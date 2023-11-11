@@ -1,11 +1,104 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+  /* text-decoration: none; */
+}
+#home nav {
+  background-color: white;
+  padding-top: 30px;
+  box-shadow: 0px 0px 14px 0px #0000001b;;
+}
+#home nav .navbar-brand {
+  padding-left: 70px;
+  font-weight: bold;
+  font-size: 30px;
+  padding-right: 15px;
+}
+/* #home nav .container-fluid .collapsenavbar-collapse ul li{ */
+/* text-align: center; */
+/* } */
+
+.collapsenavbar-collapse {
+  display: flex;
+  margin-right: 50px;
+  font-size: large;
+  padding-right: 500px;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  padding: 0;
+  
+}
+.collapsenavbar-collapse ul{
+    gap: 20px;
 }
 
-#home{
-    background-color: brown;
-    width: 100%;
-    height: 500px;
+ 
+
+.header-content {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  padding-top: 50px;
+  overflow: hidden;
+  flex-direction: row;
+
+  /* font-size: 4.0625rem;  */
+  /* display: ; */
+}
+.container-fluid .bi-moon-fill{
+    margin-right: 112px;
+}
+
+.header-content img {
+  width: 70%;
+  filter: drop-shadow(4px 4px 9px #000a);
+  flex: 1;
+  transition: 2s all;
+}
+.header-content img:hover {
+  transform: rotate(360deg);
+}
+
+.header-content .imge {
+  flex: 1;
+  width: 100%;
+  padding-top: 90px;
+}
+
+.header-content .httd {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 100px;
+  padding-bottom: 10px;
+}
+.httd .button {
+  display: flex;
+  /* font-weight: 200; */
+  font-size: large;
+  /* text-decoration: none; */
+}
+.header-content .httd h2 {
+  font-family: "Amatic SC", sans-serif;
+  font-size: 4.0625rem;
+  filter: drop-shadow(4px 4px 9px #000a);
+  font-weight: bold;
+}
+.header-content .httd .button .Watch {
+  border: solid 2px red;
+  background-color: red;
+  border-radius: 0px 100vh 100vh;
+  color: white;
+  /* --padding: 0.625rem 1.5625rem; */
+  /* --border-radius: 0px 100vh 100vh */
+}
+.header-content .httd .button .video-btn {
+  text-decoration: none;
+  padding-left: 30px;
+  color: #000;
+}
+.header-content .httd .button .video-btn:hover {
+  color: red;
 }
