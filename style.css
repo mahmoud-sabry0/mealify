@@ -108,7 +108,8 @@
 .main-title span {
   color: red;
 }
-.main-title p {
+.gallery .main-title p {
+ 
   font-size: 3.125rem;
   font-family: "Amatic SC", sans-serif;
 }
